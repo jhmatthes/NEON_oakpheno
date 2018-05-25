@@ -2,7 +2,7 @@
 
 # include rstudio-server to get pandoc
 
-/usr/bin/invoke_app "$@" -t shinyapp \
+/usr/bin/invoke_app "$@" -t evopopulations \
     -u R-3.4.0 \
     -u rstudio-server-1.0.143 \
     -u wrwroxy-0.1 \
